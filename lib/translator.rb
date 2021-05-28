@@ -28,6 +28,8 @@ def get_english_meaning(file, emote)
 
     val.each do |inner_key, inner_val|
       if inner_val == emote
+        fin_key += emote
+      end
       binding.pry
     end
     
