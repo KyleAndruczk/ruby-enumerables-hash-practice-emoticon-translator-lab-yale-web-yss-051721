@@ -30,9 +30,13 @@ def get_english_meaning(file, emote)
       if inner_val == emote
         fin_key += emote
       end
-      binding.pry
+      # binding.pry
     end
     
   end 
+  
+  if fin_key != ""
+    fin_key
+  else
   
 end
