@@ -27,6 +27,7 @@ def get_english_meaning(file, emote)
 
     val.each do |inner_key, inner_val|
       binding.pry
+    end
     
   end 
   
