@@ -22,11 +22,12 @@ def get_english_meaning(file, emote)
   # code goes here
   
   lib = load_library(file)
+  fin_key = ""
   
   lib.each do |key, val|
 
     val.each do |inner_key, inner_val|
-      if inner_val == 
+      if inner_val == emote
       binding.pry
     end
     
